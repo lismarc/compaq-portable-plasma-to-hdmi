@@ -1,0 +1,61 @@
+// ==========================================
+// Wbudowane sygnały modułu FPGA
+// ==========================================
+
+// Zegar główny 27 MHz
+IO_LOC "sys_clk" 52;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// ==========================================
+// Wbudowane wyjścia HDMI
+// ==========================================
+
+// Zegar HDMI
+IO_LOC "hdmi_tx_clk_p" 69,68;
+IO_PORT "hdmi_tx_clk_p" IO_TYPE=LVCMOS33D PULL_MODE=NONE;
+
+// Dane HDMI (Kanał 0 - Niebieski)
+IO_LOC "hdmi_tx_p[0]" 71,70;
+IO_PORT "hdmi_tx_p[0]" IO_TYPE=LVCMOS33D PULL_MODE=NONE;
+
+// Dane HDMI (Kanał 1 - Zielony)
+IO_LOC "hdmi_tx_p[1]" 73,72;
+IO_PORT "hdmi_tx_p[1]" IO_TYPE=LVCMOS33D PULL_MODE=NONE;
+
+// Dane HDMI (Kanał 2 - Czerwony)
+IO_LOC "hdmi_tx_p[2]" 75,74;
+IO_PORT "hdmi_tx_p[2]" IO_TYPE=LVCMOS33D PULL_MODE=NONE;
+
+
+
+// ==========================================
+// Wejścia wideo z retro-komputera Compaq
+// UWAGA: Wymagany konwerter 5V -> 3.3V!
+// ==========================================
+
+// Sygnały synchronizacji i kontroli
+IO_LOC "compaq_ena" 34;
+IO_PORT "compaq_ena" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "compaq_vsync" 33;
+IO_PORT "compaq_vsync" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "compaq_hsync" 30;
+IO_PORT "compaq_hsync" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+// Zegar synchronizujący (~4 MHz)
+IO_LOC "compaq_pclk" 29;
+IO_PORT "compaq_pclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+// 4-bitowa magistrala danych pikseli (d3 do d0)
+IO_LOC "compaq_data[3]" 28;
+IO_PORT "compaq_data[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "compaq_data[2]" 27;
+IO_PORT "compaq_data[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "compaq_data[1]" 26;
+IO_PORT "compaq_data[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "compaq_data[0]" 25;
+IO_PORT "compaq_data[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
