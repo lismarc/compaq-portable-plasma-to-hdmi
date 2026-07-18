@@ -1,4 +1,4 @@
-Hi, this is Marcin and Kuba.
+Hi, this is Marcin @hawix (father) and Kuba @qbus (son).
 
 We are members of the [Polish Society for the Protection of Technical Heritage (PTODT)](https://ptodt.org.pl/). From time to time, we manage to bring old computers back to life. It's our shared passion. We spend time together and learn about electronics, computer science, computer system architecture, and their history. 
 
