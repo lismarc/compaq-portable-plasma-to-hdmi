@@ -30,3 +30,5 @@ We know that many Compaq Portable III computers experience screen problems for v
 
 * 📁 **`adapter-fussion360`**  
   3D printable LCD screen adapter design.
+
+![See how it looks like](https://github.com/lismarc/compaq-portable-plasma-to-hdmi/blob/main/photos/cp3_1.png)
