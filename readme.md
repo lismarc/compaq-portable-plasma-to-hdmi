@@ -29,6 +29,6 @@ We know that many Compaq Portable III computers experience screen problems for v
   Schematic of a board with a voltage converter from 5V logic signals from the Compaq to the 3.3V logic required by the Tang Nano. The board is designed as a shield that attaches to the back of the Tang Nano 9K to minimize space and fit inside the display case. It also includes a USB connector for powering the display. The catalog also includes ready-made Gerber files, which you can submit to PCBWay or similar companies.
 
 * 📁 **`adapter-fussion360`**  
-  3D printable LCD screen adapter design.
+  3D printable LCD screen adapter design. We used dispaly ELCROW 10,1" 1280x800  that can perfectly can be fitted into CPIII disaply panel.
 
 ![See how it looks like](https://github.com/lismarc/compaq-portable-plasma-to-hdmi/blob/main/photos/cp3_1.png)
